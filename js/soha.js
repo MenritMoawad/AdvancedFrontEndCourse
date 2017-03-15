@@ -25,7 +25,6 @@ jQuery(document).ready(function($) {
 				else{
 					current_slide=current_slide+slides_asked;
 				}
-				// $('.images_container').animate({right: current_slide*100 + "%"}, 400);
 				myslider.find('.images_container').css('right', current_slide*single_slider_width*slides_asked + "%");
 			});
 
