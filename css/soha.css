@@ -13,6 +13,8 @@
 	height: 500px;
 	background-size: cover;
 	background-position: 50%;
+	display: inline;
+	margin-left: 1%;
 }
 
 .clear{
