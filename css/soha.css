@@ -2,6 +2,10 @@
 	overflow: hidden;
 }
 
+*{
+	padding: 0 0 ;
+	margin:  0 0;
+}
 .images_container{
 	position: relative;
 	transition: right .7s;
@@ -14,7 +18,7 @@
 	background-size: cover;
 	background-position: 50%;
 	display: inline;
-	margin-left: 1%;
+/*	margin-left: 1%;*/
 }
 
 .clear{
