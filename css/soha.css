@@ -38,87 +38,48 @@ button{
 	background: white;
 	color: red;
 }
-/*a.control_prev, a.control_next {
-  position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
-}
-*/
 
-/*.prev,.next {
-    width: 50px;
-    height: 150px;
-    background: transparent url(img/navbuttons2.gif);
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    user-select: none;
-}
-*/
-/*.next {
-    right: 50%;
-    transform: translateX(120%);
-}
-.prev{
-	left: 50%;
-	transform: translateX(-120%);
-}
-
-.slider_nav > button {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    color: #fff;
-    border-radius: 50%;
-    background: rgba(43,65,77,0.1);
-    font-size: 50px;
-    text-align: center;
-    line-height: 47px;
-    cursor: pointer;
-    font-weight: normal;
-    bottom: 30px;
-    opacity: 0.8;
-    font-family: 'Flamenco', Arial, sans-serif;
-    user-select: none;
-    border-right: 10px solid; 
-    border-bottom: 10px solid;
-    width: 30px; height: 30px;
-    transform: rotate(-45deg);
-}*/
 
 .mybutton{
 	display:block;
-    width:80px;
-    height:40px;
+    width:70px;
+    height:35px;
     line-height:40px;
     border: 1px solid;
-    border-radius: 20%;
+	vertical-align: middle;
+    border-radius: 25% ;
     color:#f5f5f5;
     text-align:center;
     text-decoration:none;
-    background: #464646;
-    font-size:15px;
+    background: blue;
+    font-size:17px;
     font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .facebook{
-
+	
 }
 .google{
 
 }
 .twitter{
 	
+}
+button.facebook{
+	background-color: #3b5998;
+}
+button.twitter{
+	background-color: #0084b4;
+}
+button.google{
+	background-color: #d34836;
+}
+
+i.white {
+	color:white;
+	float: left;
+}
+.button-span{
+	margin-left: 8px;
 }
