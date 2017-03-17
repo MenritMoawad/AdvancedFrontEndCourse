@@ -1,0 +1,30 @@
+.dropdown button {
+  background-color: #303B39;
+  color: white;
+  height: 40px;
+  width: 200px;
+  text-align: left;
+}
+
+.dropdown button::after {
+  font-family: 'FontAwesome';
+  content: '\f107';
+  float: right;
+}
+
+.dropdown::after {
+  clear: both;
+}
+
+.dropdownlist {
+  list-style: none;
+}
+
+.dropdownlist a {
+  color: black;
+  font-weight: bold;
+}
+
+.dropdownlist a:hover {
+  color: red;
+}
