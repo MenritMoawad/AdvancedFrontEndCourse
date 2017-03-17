@@ -28,3 +28,13 @@
 .dropdownlist a:hover {
   color: red;
 }
+
+
+/******************************************************************************/
+
+.banner {
+  background-image: url(../img/home/banner.png);
+  height: 100vh;
+  background-size: cover;
+  color: rgba(148, 94, 214, 0.5);
+}
