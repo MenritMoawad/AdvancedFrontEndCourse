@@ -28,13 +28,13 @@ padding-bottom: 30%;
 
 }
 .bottom{
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 .tiles{
 margin-right: auto;
 padding-left: 10%;
 padding-top: 6%;
-margin-bottom: 20%;
+margin-bottom: 1%;
 }
 /* tile 1 ( tile of blog page)*/
 .tiles__tile{
@@ -44,7 +44,7 @@ margin-bottom: 2%;
  font-family: 'Lato', sans-serif;
  display: inline-block; 
  margin-right: 1%;
- padding-bottom: 2%;
+ padding-bottom: 1%;
  
 }
 .tiles__tile--blog{
