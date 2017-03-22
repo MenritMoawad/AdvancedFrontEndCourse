@@ -55,13 +55,17 @@ body{
 	margin: 20px 100px 0 0;
 }
 
+.header__search:after{
+	clear:both;
+}
+
 .header__search a{
 	color: black;
 }
 
 .line-separator{
 	border-bottom: 2px solid;
-	margin: 0 100px;
+	margin: 0 80px;
 }
 
 .line-separator--header{
@@ -111,3 +115,10 @@ body{
 	margin-right: 75px;
 	font-weight: bold;
 }
+
+.footer__copyrights{
+	color: rgb(153, 153, 153);
+	font-size: 95%;
+	margin-left: 80px;
+}
+
