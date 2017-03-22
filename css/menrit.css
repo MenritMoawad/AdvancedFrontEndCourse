@@ -1,9 +1,23 @@
 .dropdown button {
   background-color: #303B39;
   color: white;
-  height: 40px;
-  width: 200px;
+  height: 2%;
+  width: 10%;
   text-align: left;
+  font-size: 1vw;
+  padding: 1% 0.5%;
+  margin-right: 4%;
+
+}
+.dropdown--right{
+margin-left: 11%;
+}
+.dropdown{
+  display: block;
+  position: absolute;
+}
+.dropdown--left{
+   float: left;
 }
 
 .dropdown button::after {
@@ -12,10 +26,9 @@
   float: right;
 }
 
-.dropdown::after {
+.clear{
   clear: both;
 }
-
 .dropdownlist {
   list-style: none;
 }
