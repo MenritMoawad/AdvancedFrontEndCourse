@@ -145,7 +145,7 @@ font-size: 2vw;
 margin-top: 20%;
 margin-left: auto;
 margin-right: auto;
- width: 55%;
+ width: 50%;
  height: 50%;
  background-color: white;
  font-family: 'Lato', sans-serif;
@@ -175,6 +175,7 @@ padding-top: 3%;
 	background-color: #F0F0F0;
 	margin-right: 4%;
 	padding: 1% 5%;
+	padding-right: 6%;
 }
 .tag__center{
 	margin-left:7%;
