@@ -33,8 +33,35 @@
 /******************************************************************************/
 
 .banner {
-  background-image: url(../img/home/banner.png);
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url(../img/home/banner.png);
   height: 100vh;
   background-size: cover;
-  color: rgba(148, 94, 214, 0.5);
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.btn-banner {
+  text-transform: uppercase;
+  border-radius: 7px;
+  background-color: white;
+  padding: 15px 25px;
+  cursor: pointer;
+  box-shadow: 3px 5px #999;
+}
+
+.btn-banner:hover {
+  background-color: violet;
+  color: white;
+}
+
+.btn-banner:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
