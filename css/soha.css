@@ -21,6 +21,7 @@
 /*	margin-left: 1%;*/
 }
 
+
 .clear{
 	clear: both;
 }
@@ -102,12 +103,21 @@ i.white {
 
 }
 i.icon-right-circle{
-	background-color: white;
-	font-size: 40px;
-	position: absolute;
+/*	background-color: white;
+*/	font-size: 30px;
+	/*position: absolute;
 	left:75%;
 	transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);*/
+
+}
+i.icon-left-circle{
+/*	background-color: white;
+*/	font-size: 30px;
+	/*position: absolute;
+	left:75%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);*/
 
 }
 i.icon-right-open{
