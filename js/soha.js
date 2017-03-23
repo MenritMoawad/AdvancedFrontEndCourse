@@ -96,7 +96,8 @@ jQuery(document).ready(function($) {
 		///////////////////////////////////////////////////////////////////data arrows only
 		else if($(this).attr('data-arrows') == 'true'){
 			var myslider=$(this);
-			$(this).append("<div class='slider_nav'><i class='prev icon-left-circle'></i><i class='next icon-right-circle'></i></div>");
+ 			$(this).find('.images_container').before("<div class='slider_nav'><i class='prev icon-left-circle'></i><i class='next icon-right-circle'></i></div>");
+			//$(this).append("<div class='slider_nav'><i class='prev icon-left-circle'></i><i class='next icon-right-circle'></i></div>");
 			var current_slide = 0;
 			$(this).find('.next').click(function(event) {
 				if (current_slide === slide_count-1) {

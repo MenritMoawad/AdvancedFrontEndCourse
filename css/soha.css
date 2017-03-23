@@ -1,5 +1,6 @@
 .myslider{
 	overflow: hidden;
+	position: relative;
 }
 
 *{
@@ -29,6 +30,10 @@
 .slider_nav{
 	text-align: center;
 	margin-top: 10px;
+	position: absolute;
+    top: 40%;
+    width: 100%;
+    z-index: 1000;
 }
 
 button{
