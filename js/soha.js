@@ -28,7 +28,74 @@ jQuery(document).ready(function($) {
 		$(this).find('.slide').css('width', 100/slide_count2 + "%");
 		console.log($(this).find('.slide'));
 		console.log(slides_asked);
-		if($(this).attr('data-arrows') == 'true'){
+		/////////////////////////////////////////////////////////////////////////////////////checking if it is a dot/arrow
+		if($(this).attr('data-arrows') == 'true' && $(this).attr('data-dots') =='true'){
+			//add the dots
+			var current_slide = 0;
+			var myslider=$(this);
+			var ol_appended="<div class='wrapper'><button class='prev'>Previous</button><ol class='ol-dots'>";
+			for(i = 0; i < slide_count; ++i) {
+					if(i==0){
+						ol_appended+=("<li class='li-dots' style='background:#b3cccc'></li>");
+					}
+					else
+	    				ol_appended+=("<li class='li-dots'></li>");
+	    	}
+	    	ol_appended+="</ol><button class='next'>Next</button><div class='clear'></div></div>";
+	    	$(this).append(ol_appended);
+	    	//the click event
+	    	$(this).find('.li-dots').bind('click', function(){
+		        var index = $(this).index() ;
+		        current_slide=index;
+		        myslider.find('.images_container').css('right', index*(image_container_width/slide_count2)+ "%");
+		        //change the color of the dots
+		        var li_items=myslider.find(".li-dots");
+		        $.each(li_items, function(index, val) {
+		        	 $(this).css('background','#f5f5f0');
+		        });
+		        $(this).css('background',' #b3cccc');
+	     
+			});
+			////add the arrows
+			
+			$(this).find('.next').click(function(event) {
+				if (current_slide === slide_count-1) {
+					current_slide = 0;
+				}
+
+				else{
+					current_slide++;
+				}
+				myslider.find('.images_container').css('right', current_slide*(image_container_width/slide_count2)+ "%");
+				var li_items=myslider.find(".li-dots");
+		        $.each(li_items, function(index, val) {
+		        	 $(this).css('background','#f5f5f0');
+		        	 if(index ==current_slide ){
+		        	 	 $(this).css('background','#b3cccc');
+		        	 }
+		        });
+		       
+			});
+
+			$('.prev').click(function(event) {
+				if (current_slide === 0) {
+					current_slide = slide_count-1;
+				}
+				else{
+					current_slide--;	
+				}
+				myslider.find('.images_container').css('right', current_slide*(image_container_width/slide_count2) + "%");
+				var li_items=myslider.find(".li-dots");
+		        $.each(li_items, function(index, val) {
+		        	 $(this).css('background','#f5f5f0');
+		        	 if(index ==current_slide ){
+		        	 	 $(this).css('background','#b3cccc');
+		        	 }
+		        });
+			});
+		}
+		///////////////////////////////////////////////////////////////////data arrows only
+		else if($(this).attr('data-arrows') == 'true'){
 			var myslider=$(this);
 			$(this).append("<div class='slider_nav'><button class='prev'>Previous</button><button class='next'>Next</button></div>");
 			var current_slide = 0;
@@ -52,6 +119,27 @@ jQuery(document).ready(function($) {
 				}
 				myslider.find('.images_container').css('right', current_slide*(image_container_width/slide_count2) + "%");
 			});
+	}
+	else if($(this).attr('data-dots') == 'true'){//data dots http://stackoverflow.com/questions/20649692/implement-nav-dots-to-my-slider
+		var myslider=$(this);
+		var ol_appended="<div class='wrapper'><ol class='ol-dots'>";
+		for(i = 0; i < slide_count; ++i) {
+    			ol_appended+=("<li class='li-dots'></li>");
+    	}
+    	ol_appended+="</ol></div>";
+    	$(this).append(ol_appended);
+    	//the click event
+    	$(this).find('.li-dots').bind('click', function(){
+        var index = $(this).index() ;
+        myslider.find('.images_container').css('right', index*(image_container_width/slide_count2)+ "%");
+        //change the color of the dots
+        var li_items=myslider.find(".li-dots");
+        $.each(li_items, function(index, val) {
+        	 $(this).css('background','#f5f5f0');
+        });
+        $(this).css('background',' #b3cccc');
+     
+});
 	}
 
 });
