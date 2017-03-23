@@ -95,6 +95,11 @@ body{
 	margin: 0  150px;
 }
 
+.line-separator--articles{
+	color: rgb(117, 122, 127);
+	margin: 0;
+}
+
 .header__links{
 	text-align: center;
 	margin: 10px 0 25px 0;
@@ -104,6 +109,81 @@ body{
 	color: black;
 	margin-right: 15px;
 	font-weight: bold;
+}
+
+.banner{
+	background-image: url(../img/article-img1.png);
+	height: 85vh;
+	background-size: cover;
+}
+
+.banner__title{
+	padding: 120px 225px;
+}
+
+.banner__title-small{
+	color:#D4AF37;
+	
+}
+
+.banner__title-big{
+	font-weight: bold;
+	font-size: 425%;
+	line-height: 125%;
+	color: white;
+}
+
+.main-section{
+
+}
+
+.left-content{
+	margin-top: 45px;
+}
+
+.left-content__paragraph{
+	margin-bottom: 35px;
+	line-height: 200%;
+}
+
+.left-content__image{
+	margin: 35px 0;
+}
+
+.left-content__title{
+	margin: 50px 0 25px 0;
+	font-weight: bold;
+	font-size: 165%;
+}
+
+.right-content{
+	margin: 35px 0 0 80px;
+}
+
+.right-content__title{
+	margin-bottom: 30px;
+}
+
+.right-content__image{
+	
+}
+
+.right-content__article{
+
+}
+
+.right-content__article-text{
+	margin:20px 0;
+}
+
+.right-content__article-comments{
+	color: rgb(117, 122, 127);
+	float:left;
+}
+
+.right-content__article-date{
+	color: rgb(117, 122, 127);
+	margin: 0 0 20px 50px;
 }
 
 .footer{
