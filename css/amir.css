@@ -178,6 +178,7 @@ body{
 	margin-left: 110px;
 	color: rgb(117, 122, 127);
 	font-weight: bold;
+	word-wrap:break-word;
 }
 
 .comments__item-textarea{
@@ -188,4 +189,5 @@ body{
 	background-color: rgb(243, 243, 243);
 	color: rgb(117, 122, 127);
 	resize: none;
+
 }
