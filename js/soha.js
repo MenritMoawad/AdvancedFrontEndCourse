@@ -8,7 +8,6 @@ jQuery(document).ready(function($) {
 			slides_asked=slide_count-1;
 		var add=slides_asked-1;
 		var slides=$(this).find('.slide');
-		console.log('iam here',add);
 		var slide_count2=slide_count;
 		if(add > 0){
 			slide_count2=slide_count+add;
@@ -33,7 +32,7 @@ jQuery(document).ready(function($) {
 			//add the dots
 			var current_slide = 0;
 			var myslider=$(this);
-			var ol_appended="<div class='wrapper'><button class='prev'>Previous</button><ol class='ol-dots'>";
+			var ol_appended="<div class='wrapper'><i class='prev icon-left-open'></i><ol class='ol-dots'>";
 			for(i = 0; i < slide_count; ++i) {
 					if(i==0){
 						ol_appended+=("<li class='li-dots' style='background:#b3cccc'></li>");
@@ -41,7 +40,7 @@ jQuery(document).ready(function($) {
 					else
 	    				ol_appended+=("<li class='li-dots'></li>");
 	    	}
-	    	ol_appended+="</ol><button class='next'>Next</button><div class='clear'></div></div>";
+	    	ol_appended+="</ol><i class='next icon-right-open'></i><div class='clear'></div></div>";
 	    	$(this).append(ol_appended);
 	    	//the click event
 	    	$(this).find('.li-dots').bind('click', function(){
