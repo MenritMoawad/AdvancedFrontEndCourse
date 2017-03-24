@@ -263,6 +263,7 @@ body{
 	color: rgb(117, 122, 127);
 	font-weight: bold;
 
+
 	word-wrap:break-word;
 
 }
@@ -275,3 +276,6 @@ body{
 	background-color: rgb(243, 243, 243);
 	color: rgb(117, 122, 127);
 	resize: none;
+
+}
+
