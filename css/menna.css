@@ -7,6 +7,30 @@
  	font-size: 1.6vw;
  
  }
+ .white-font{
+	color: white;
+	font-size: 4vw;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 1%;
+}
+.white-font--margin{
+	margin-top: 0%;
+
+}
+.mybutton--red{
+	background-color: #ff3232;
+	border-color: #ff3232;
+
+}
+.text-margin{
+	margin-left: 25%;
+}
+.orange{
+	font-size: 0.9vw;
+	color: #ffb732;
+	margin-top: 10%;
+	margin-bottom: 0%;
+}
  .drop{
  	margin-left: 20%;
  }
