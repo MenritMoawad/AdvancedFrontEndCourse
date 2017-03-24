@@ -22,7 +22,6 @@
 /*	margin-left: 1%;*/
 }
 
-
 .clear{
 	clear: both;
 }
@@ -71,8 +70,6 @@ ol{
     text-decoration:none;
     background: blue;
     font-size:0.8vw;
-
-
     font-weight:bold;
     font-family: 'Lato', sans-serif;
 
@@ -83,6 +80,8 @@ ol{
  	background-color: #0099CC;
  	margin-bottom: 1%;
  }
+
+
 button.facebook{
 	background-color: #3b5998;
 }
@@ -117,7 +116,9 @@ i.white {
 i.icon-right-circle{
 /*	background-color: white;
 */	font-size: 30px;
+
 	color: white;
+
 	/*position: absolute;
 	left:75%;
 	transform: translateX(-50%);
@@ -128,6 +129,7 @@ i.icon-left-circle{
 /*	background-color: white;
 */	font-size: 30px;
 	color: white;
+
 	/*position: absolute;
 	left:75%;
 	transform: translateX(-50%);

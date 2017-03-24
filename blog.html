@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Dropdown Menu</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/menrit.css">
+    <link rel="stylesheet" href="css/soha.css">
+    <link rel="stylesheet" href="css/menna.css">
+    <link rel="stylesheet" href="css/amir.css">
+    <link rel="stylesheet" href="css/SohaFontello.css">
+    <link rel="stylesheet" href="fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="fontello-cf40e9a6/css/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class="header">
+  <div class="header__social-list">
+    <div class="header__social-item"><a href="" class="fa fa-facebook" aria-hidden="true"></a></div>
+    <div class="header__social-item"><a href="" class="fa fa-twitter" aria-hidden="true"></a></div>
+    <div class="header__social-item"><a href="" class="fa fa-google-plus" aria-hidden="true"></a></div>
+    <div class="header__social-item"><a href="" class="fa fa-youtube" aria-hidden="true"></a></div>
+    <div class="header__social-item"><a href="" class="fa fa-instagram" aria-hidden="true"></a></div>
+  </div>
+  <div class="header__search">
+    <span class="fa fa-search header__search-icon" aria-hidden="true"></span>
+    <input type="search" class="header__search-input"/>
+  </div>
+  <div class="logo logo--header"></div>
+  <div class="line-separator line-separator--header"></div>
+  <div class="header__links">
+    <a class="header__links-item">BLOG</a>
+    <a class="header__links-item">PHOTOGRAPHY</a>
+    <a class="header__links-item">ABOUT</a>
+    <a class="header__links-item">CONTACT</a>
+  </div>
+</div>
+
+  <div class="myslider" data-show-slides=1  data-arrows='true'>
+  <!-- data-arrows='true' data-dots='true' -->
+<!--      <div class='slider_nav'><i class='prev icon-left-circle'></i><i class='next icon-right-circle'></i></div>
+ -->
+    <div class="images_container" >
+      <div class="slide" style="background-image: url(img/blog/post1.png)">
+      <div class="text-margin">
+        <p class="orange">POLITICS</p>
+        <h1 class ="white-font white-font--margin">Cameron Set to Return</h1>
+        <h1 class = "white-font"> With U.K. Majority as SNP 
+        <h1 class = "white-font">Sweeps Scotland</h1>
+        <button class = "mybutton mybutton--red">READ MORE</button>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url(img/blog/post2.png)"></div>
+      <div class="slide" style="background-image: url(img/blog/post3.png)">
+        <div class="text-margin">
+        <p class="orange">POLITICS</p>
+        <h1 class ="white-font white-font--margin">Cameron Set to Return</h1>
+        <h1 class = "white-font"> With U.K. Majority as SNP 
+        <h1 class = "white-font">Sweeps Scotland</h1>
+        <button class = "mybutton mybutton--red">READ MORE</button>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url(img/blog/post4.png)">
+        <div class="text-margin">
+        <p class="orange">POLITICS</p>
+        <h1 class ="white-font white-font--margin">Cameron Set to Return</h1>
+        <h1 class = "white-font"> With U.K. Majority as SNP 
+        <h1 class = "white-font">Sweeps Scotland</h1>
+        <button class = "mybutton mybutton--red">READ MORE</button>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url(img/blog/post5.png)"></div>
+      <div class="slide" style="background-image: url(img/blog/post5.png)"></div>
+
+ </div></div>
+
+  <div class="clear"></div>
+
+<div class="left-bar">
+<div class = "drop">
+  <h3>Category</h3>
+  <h3>Sort by</h3>
+    <div class="dropdown ">
+      <div class="btn ">
+        <button class="dropbtn " data-modal-btn="btn1">Select Category
+      </button>   
+
+      </div>
+
+      <ul class="dropdownlist" data-modal="btn1">
+        <li><a >All</a></li>
+        <li><a >News</a></li>
+        <li><a >Sports</a></li>
+        <li><a >Politics</a></li>
+        <li><a >Tech</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown dropdown--right">
+      <div class="btn ">
+        <button class="dropbtn" data-modal-btn="btn2">Sort By
+      </button>    <div class ="clear"></div>
+
+      </div>
+
+      <ul class="dropdownlist" data-modal="btn2">
+        <li><a >Latest</a></li>
+        <li><a>A-Z</a></li>
+        <li><a>Oldest</a></li>
+        <!-- <li><a href="#">Politics</a></li>
+        <li><a href="#">Tech</a></li> -->
+      </ul>
+    </div>
+    <div class ="clear"></div>
+    </div>
+<div class ="tag">
+    <p class = "tag__title">TAGS</p>
+    <div class = "tag__center">
+    <span class ="tag__oval">MARKETS</span>
+    <span class ="tag__oval">BUSINESS</span>
+    <span class ="tag__oval">SPORT</span>
+    <span class ="tag__oval">SPECIAL REPORTS</span>
+    <span class ="tag__oval">CULTURE</span>
+    <span class ="tag__oval">SCI-TECH</span>
+    <span class ="tag__oval">TRAVEL</span>
+    <span class ="tag__oval">LUXURY</span>
+    <span class ="tag__oval">SMART PHONE</span>
+    <span class ="tag__oval">TABLET</span>
+    <span class ="tag__oval">COMPUTER</span>
+    <span class ="tag__oval">SMART TV</span>
+    <span class ="tag__oval">SMART WATCH</span>
+    <span class ="tag__oval">GOOGLE GLASS</span>
+    <span class ="tag__oval">SPORTS UNITED</span>
+    <span class ="tag__oval">SPEED</span>
+    <span class ="tag__oval">GRAVITY</span>
+    <span class ="tag__oval">THE CORNER</span>
+    <span class ="tag__oval">EUROPE</span>
+    <span class ="tag__oval">REAL ECONOMY</span>
+    </div>
+  </div>
+
+  </div>
+  <div class= "right-bar">
+      <div class="tiles">
+  <div class = "tiles__tile tiles__tile--blog">
+    <img class = "tile__img" src="img/img1.jpg" alt="">
+    <ul class = "tile__ul tile__ul--blog">
+      <li class = "ul__li ul__li--type">TECH</li>
+      <li class = "ul__li ul__li--details icon-comment"> 12</li>
+      <li class = "ul__li ul__li--details icon-calendar"> 2 hours ago</li>
+    </ul>
+    <p class = "tile__p tile__p--blog">Apple Watch Review: You'll Want one, but You Don't Need One</p>
+  </div>
+    <div class = "tiles__tile tiles__tile--blog">
+    <img class = "tile__img" src="img/img2.jpg" alt="">
+    <ul class = "tile__ul tile__ul--blog">
+      <li class = "ul__li ul__li--type">NEWS</li>
+      <li class = "ul__li ul__li--details icon-comment"> 12</li>
+      <li class = "ul__li ul__li--details icon-calendar"> 2 hours ago</li>
+    </ul>
+    <p class = "tile__p tile__p--blog">Apple Watch Review: You'll Want one, but You Don't Need One</p>
+  </div>
+    <div class = "tiles__tile tiles__tile--blog">
+    <img class = "tile__img" src="img/img3.jpg" alt="">
+    <ul class = "tile__ul tile__ul--blog">
+      <li class = "ul__li ul__li--type">NEWS</li>
+      <li class = "ul__li ul__li--details icon-comment"> 12</li>
+      <li class = "ul__li ul__li--details icon-calendar"> 2 hours ago</li>
+    </ul>
+    <p class = "tile__p tile__p--blog">Apple Watch Review: You'll Want one, but You Don't Need One</p>
+  </div>
+      <div class = "tiles__tile tiles__tile--blog">
+    <img class = "tile__img" src="img/img4.jpg" alt="">
+    <ul class = "tile__ul tile__ul--blog">
+      <li class = "ul__li ul__li--type">TECH</li>
+      <li class = "ul__li ul__li--details icon-comment"> 12</li>
+      <li class = "ul__li ul__li--details icon-calendar"> 2 hours ago</li>
+    </ul>
+    <p class = "tile__p tile__p--blog">Apple Watch Review: You'll Want one, but You Don't Need One</p>
+  </div>
+      <div class = "tiles__tile tiles__tile--blog">
+    <img class = "tile__img" src="img/img2.jpg" alt="">
+    <ul class = "tile__ul tile__ul--blog">
+      <li class = "ul__li ul__li--type">NEWS</li>
+      <li class = "ul__li ul__li--details icon-comment"> 12</li>
+      <li class = "ul__li ul__li--details icon-calendar"> 2 hours ago</li>
+    </ul>
+    <p class = "tile__p tile__p--blog">Apple Watch Review: You'll Want one, but You Don't Need One</p>
+  </div>
+      <div class = "tiles__tile tiles__tile--blog">
+    <img class = "tile__img" src="img/img3.jpg" alt="">
+    <ul class = "tile__ul tile__ul--blog">
+      <li class = "ul__li ul__li--type">NEWS</li>
+      <li class = "ul__li ul__li--details icon-comment"> 12</li>
+      <li class = "ul__li ul__li--details icon-calendar"> 2 hours ago</li>
+    </ul>
+    <p class = "tile__p tile__p--blog">Apple Watch Review: You'll Want one, but You Don't Need One</p>
+  </div>
+      <div class = "tiles__tile tiles__tile--blog">
+    <img class = "tile__img" src="img/img4.jpg" alt="">
+    <ul class = "tile__ul tile__ul--blog">
+      <li class = "ul__li ul__li--type">TECH</li>
+      <li class = "ul__li ul__li--details icon-comment"> 12</li>
+      <li class = "ul__li ul__li--details icon-calendar"> 2 hours ago</li>
+    </ul>
+    <p class = "tile__p tile__p--blog">Apple Watch Review: You'll Want one, but You Don't Need One</p>
+  </div>
+      <div class = "tiles__tile tiles__tile--blog">
+    <img class = "tile__img" src="img/img2.jpg" alt="">
+    <ul class = "tile__ul tile__ul--blog">
+      <li class = "ul__li ul__li--type">NEWS</li>
+      <li class = "ul__li ul__li--details icon-comment"> 12</li>
+      <li class = "ul__li ul__li--details icon-calendar"> 2 hours ago</li>
+    </ul>
+    <p class = "tile__p tile__p--blog">Apple Watch Review: You'll Want one, but You Don't Need One</p>
+  </div>
+      <div class = "tiles__tile tiles__tile--blog">
+    <img class = "tile__img" src="img/img1.jpg" alt="">
+    <ul class = "tile__ul tile__ul--blog">
+      <li class = "ul__li ul__li--type">NEWS</li>
+      <li class = "ul__li ul__li--details icon-comment"> 12</li>
+      <li class = "ul__li ul__li--details icon-calendar"> 2 hours ago</li>
+    </ul>
+    <p class = "tile__p tile__p--blog">Apple Watch Review: You'll Want one, but You Don't Need One</p>
+  </div>
+  <div class="bottom"><button class="mybutton mybutton--center">LOAD MORE</button></div>
+  </div>
+
+    </div>
+    <div class = "clear"></div>
+    <div class="footer">
+  <div class="row">
+    <div class="small-1 columns">
+      <div class="logo logo--footer"></div>
+      <span class="footer__logo-text">MET</span>
+    </div>
+    <div class="small-11 columns">
+      <p class="footer__paragraph">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+      </p>
+    </div>
+  </div>
+  <div class="line-separator line-separator--footer"></div>
+  <div class="footer__links">
+    <a class="footer__links-item">NEWS</a>
+    <a class="footer__links-item">GALLERY</a>
+    <a class="footer__links-item">BLOG</a>
+    <a class="footer__links-item">ABOUT</a>
+    <a class="footer__links-item">CONTACTS</a>
+    <span class="footer__copyrights">&copy; 2015 &nbsp; MET. All Rights Reserved.</span>
+  </div>
+</div>
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.js"></script>
+    <script src="js/menrit.js"></script>
+    <script src="js/soha.js"></script>
+    <script src="js/menna.js"></script>
+
+  </body>
+
+</html>
+
