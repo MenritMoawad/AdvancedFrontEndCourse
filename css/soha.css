@@ -22,7 +22,7 @@
 /*	margin-left: 1%;*/
 }
 
-s
+
 .clear{
 	clear: both;
 }
@@ -59,7 +59,6 @@ ol{
     }
 
 .mybutton{
-	display:block;
     width:11%;
     height:10%;
     line-height:28px;
@@ -73,6 +72,9 @@ ol{
     font-size:0.8vw;
     font-weight:bold;
     font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin-left: 2%;
+    margin-bottom: 8%;
 
 }
 
@@ -87,17 +89,21 @@ ol{
 
 button.facebook{
 	background-color: #3b5998;
+	width:15%;
 }
 button.twitter{
 	background-color: #0084b4;
+	width:15%;
 }
 button.google{
 	background-color: #d34836;
+	width:15%;
 }
 
 i.white {
 	color:white;
 	float: left;
+	margin-left: 10%;
 }
 .button-span{
 	margin-left: 8px;
@@ -183,4 +189,28 @@ i.icon-left-open{
 .next{
 	display: inline;
 	float: right;
+}
+
+.tags{
+	width: 150%;
+	margin-bottom: 8%;
+}
+
+
+
+.box-header {
+    border-bottom: 1px solid #aac7ef;
+    padding-bottom: 5px;
+    display: table;
+    width: 100%;
+}
+.left-cell {
+    display: table-cell;
+    vertical-align: baseline;
+}
+.right-cell {
+    display: table-cell;
+    vertical-align: top;
+    text-align: start;
+    width: 80%;
 }
