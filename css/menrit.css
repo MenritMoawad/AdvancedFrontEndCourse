@@ -171,7 +171,7 @@
 
 .tiles {
   margin-right: auto;
-  padding-left: 10%;
+  /*padding-left: 10%;*/
   padding-top: 6%;
   margin-bottom: 1%;
 }
@@ -196,7 +196,7 @@
 
 .tile__text {
   position: absolute;
-  bottom: 0px;
+  bottom: 4px;
   background-color: white;
 }
 
