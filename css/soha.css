@@ -34,6 +34,8 @@
     top: 40%;
     width: 100%;
     z-index: 1000;
+    min-width: 100px;
+    max-width: 1200px;
 }
 
 button{
@@ -144,7 +146,7 @@ i.icon-right-circle{
 i.icon-left-circle{
 /*	background-color: white;
 */	font-size: 30px;
-
+	margin-left: 10%;
 	color: white;
 
 	/*position: absolute;
