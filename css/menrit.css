@@ -76,8 +76,25 @@
   color: white;
 }
 
+.allposts {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.banner__btn--blue {
+  background-color: #6c57f6;
+  box-shadow: 3px 5px #6c57f6;
+  color: white;
+  margin: 0;
+  padding: 7px 7px;
+}
+
 .banner__btn--red:hover {
   background-color: #9383ff;
+}
+
+.banner__btn--blue:hover {
+  background-color: blue;
 }
 
 .authors {
@@ -99,8 +116,25 @@
 
 .author__back {
   color: white;
-  font-size: 70%;
-  /*font-size-adjust: 0.5;*/
+  font-size: 100%;
+}
+
+@media screen and (max-width: 636px) {
+  .author__back {
+    font-size: 80%;
+  }
+  .banner__btn {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .author__back {
+    font-size: 60%;
+  }
+  .banner__btn {
+    font-size: 30%;
+  }
 }
 
 .authors::after {
