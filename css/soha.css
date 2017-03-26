@@ -199,7 +199,7 @@ i.icon-left-open{
 
 
 .box-header {
-    border-bottom: 1px solid #aac7ef;
+    /*border-bottom: 1px solid #aac7ef;*/
     padding-bottom: 5px;
     display: table;
     width: 100%;

@@ -3,12 +3,12 @@ body{
 }
 
 .header{
-	margin-top: 10px;
+	margin-top: 21px;
 }
 
 .header__social-list{
 	float:left;
-	margin: 20px 0 0 100px;
+	margin: 20px 0 0 8%;
 }
 
 .header__social-item{
@@ -50,7 +50,7 @@ body{
 
 .header__search{
 	float:right;
-	margin: 20px 100px 0 0;
+	margin: 20px 8% 0 0;
 }
 
 .header__search:after{
@@ -78,7 +78,7 @@ body{
 
 .line-separator{
 	border-bottom: 2px solid;
-	margin: 0 80px;
+	margin: 0 6%;
 }
 
 .line-separator--header{
@@ -92,7 +92,7 @@ body{
 
 .line-separator--comments{
 	color: rgb(181, 181, 181);
-	margin: 0  150px;
+	margin: 0  15%;
 }
 
 
@@ -116,12 +116,12 @@ body{
 
 .banner{
 	background-image: url(../img/article-img1.png);
-	height: 85vh;
 	background-size: cover;
+	height:30%;
 }
 
 .banner__title{
-	padding: 120px 225px;
+	padding: 10% 20% 10% 18%;
 }
 
 .banner__title-small{
@@ -131,7 +131,7 @@ body{
 
 .banner__title-big{
 	font-weight: bold;
-	font-size: 425%;
+	font-size: 5vw;
 	line-height: 125%;
 	color: white;
 }
@@ -142,6 +142,7 @@ body{
 
 .left-content{
 	margin-top: 45px;
+	padding-left: 0;
 }
 
 .left-content__paragraph{
@@ -160,7 +161,7 @@ body{
 }
 
 .right-content{
-	margin: 35px 0 0 80px;
+	margin: 35px;
 }
 
 .right-content__title{
@@ -192,12 +193,12 @@ body{
 
 .footer{
 	background-color: rgb(51, 51, 51);
-	height:226px;
+	/*height:230px;*/
 }
 
 .footer__paragraph{
 	color: rgb(153, 153, 153);
-	margin-top: 25px;
+	margin: 25px 25px;
 	font-size: 95%;
 }
 
@@ -207,25 +208,27 @@ body{
 }
 
 .footer__links{
-	margin-left: 125px;
+	margin-left: 10%;
 	margin-top: 25px;
+	padding-bottom:30px;
+
 }
 
 .footer__links-item{
 	color: white;
-	margin-right: 75px;
+	margin-right: 6%;
 	font-weight: bold;
 }
 
 .footer__copyrights{
 	color: rgb(153, 153, 153);
 	font-size: 95%;
-	margin-left: 80px;
+	margin-left: 10%;
 }
 
 .comments{
 	background-color: rgb(243, 243, 243);
-	padding: 35px 0 50px 0;
+	padding: 35px 0;
 }
 
 .comments__title{
