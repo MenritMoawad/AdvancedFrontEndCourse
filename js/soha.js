@@ -45,7 +45,9 @@ jQuery(document).ready(function($) {
 		    	ol_appended+="</ol><i class='next icon-right-open'></i><div class='clear'></div></div>";
 		    	$(this).append(ol_appended);
 		    	myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('background',' #D3D3D3');
-		    	//the click event
+		    	myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('filter',' opacity(100%)');
+		    	//filter should be opacity(100%);
+		    	//the click even
 		    	$(this).find('.li-dots').bind('click', function(){
 			        var index = $(this).index() ;
 			        current_slide=index;
@@ -54,8 +56,10 @@ jQuery(document).ready(function($) {
 			        var li_items=myslider.find(".li-dots");
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
+			        	 $(this).css('filter',' opacity(30%)');
 			        });
-			        $(this).css('background',' #D3D3D3');
+			        myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('background',' #FFF');
+			        myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('filter','opacity(100%)');
 		     
 				});
 				////add the arrows
@@ -72,8 +76,10 @@ jQuery(document).ready(function($) {
 					var li_items=myslider.find(".li-dots");
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
+			        	  $(this).css('filter',' opacity(30%)');
 			        	 if(index ==current_slide ){
 			        	 	 $(this).css('background','#D3D3D3');
+			        	 	 $(this).css('filter','opacity(100%)');
 			        	 }
 			        });
 			       
@@ -90,8 +96,10 @@ jQuery(document).ready(function($) {
 					var li_items=myslider.find(".li-dots");
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
+			        	  $(this).css('filter',' opacity(30%)');
 			        	 if(index ==current_slide ){
 			        	 	 $(this).css('background','#D3D3D3');
+			        	 	 $(this).css('filter','opacity(100%)');
 			        	 }
 			        });
 				});
@@ -132,6 +140,7 @@ jQuery(document).ready(function($) {
 	    	ol_appended+="</ol></div>";
 	    	$(this).append(ol_appended);
 	    	myslider.find('.li-dots:nth-child(1)').css('background',' #D3D3D3');
+	    	myslider.find('.li-dots:nth-child(1)').css('filter','opacity(100%)');
 	    	//the click event
 	    	$(this).find('.li-dots').bind('click', function(){
 	        var index = $(this).index() ;
@@ -140,8 +149,10 @@ jQuery(document).ready(function($) {
 	        var li_items=myslider.find(".li-dots");
 	        $.each(li_items, function(index, val) {
 	        	 $(this).css('background','#f5f5f0');
+	        	  $(this).css('filter',' opacity(30%)');
 	        });
-	        $(this).css('background',' #D3D3D3');
+	         $(this).css('background',' #D3D3D3');
+	         $(this).css('background',' opacity(100%)');
 	     
 	});
 		}
@@ -167,8 +178,10 @@ jQuery(document).ready(function($) {
 				var li_items=myslider.find(".li-dots");
 		        $.each(li_items, function(index, val) {
 		        	 $(this).css('background','#f5f5f0');
+		        	  $(this).css('filter',' opacity(30%)');
 		        });
 		        myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('background',' #D3D3D3');
+		        myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('filter','opacity(100%)');
 		        console.log(myslider.find('.li-dots:nth-child('+(current_slide+1)+')'));
 	    }
 		},pause);
@@ -180,7 +193,7 @@ jQuery(document).ready(function($) {
 				var ol_appended="<div class='wrapper'><i class='prev icon-left-open'></i><ol class='ol-dots'>";
 				for(i = 0; i < slide_count; ++i) {
 						if(i==0){
-							ol_appended+=("<li class='li-dots' style='background:#D3D3D3'></li>");
+							ol_appended+=("<li class='li-dots' style='background:#D3D3D3 filter:opacity(100%)'></li>");
 						}
 						else
 		    				ol_appended+=("<li class='li-dots'></li>");
@@ -196,8 +209,10 @@ jQuery(document).ready(function($) {
 			        var li_items=myslider.find(".li-dots");
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
+			        	  $(this).css('filter',' opacity(30%)');
 			        });
 			        $(this).css('background',' #D3D3D3');
+			         $(this).css('filter',' opacity(100%)');
 		     
 				});
 				////add the arrows
@@ -214,8 +229,10 @@ jQuery(document).ready(function($) {
 					var li_items=myslider.find(".li-dots");
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
+			        	 $(this).css('filter',' opacity(30%)');
 			        	 if(index ==current_slide ){
 			        	 	 $(this).css('background','#D3D3D3');
+			        	 	 $(this).css('filter',' opacity(100%)');
 			        	 }
 			        });
 			       
@@ -232,8 +249,10 @@ jQuery(document).ready(function($) {
 					var li_items=myslider.find(".li-dots");
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
+			        	  $(this).css('filter',' opacity(30%)');
 			        	 if(index ==current_slide ){
 			        	 	 $(this).css('background','#D3D3D3');
+			        	 	 $(this).css('filter',' opacity(100%)');
 			        	 }
 			        });
 				});
@@ -273,6 +292,7 @@ jQuery(document).ready(function($) {
 	    	ol_appended+="</ol></div>";
 	    	$(this).append(ol_appended);
 	    	myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('background',' #D3D3D3');
+	    	myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('filter',' opacity(100%)');
 	    	//the click event
 	    	$(this).find('.li-dots').bind('click', function(){
 	        var index = $(this).index() ;
@@ -282,8 +302,10 @@ jQuery(document).ready(function($) {
 	        var li_items=myslider.find(".li-dots");
 	        $.each(li_items, function(index, val) {
 	        	 $(this).css('background','#f5f5f0');
+	        	 $(this).css('filter',' opacity(30%)');
 	        });
 	        $(this).css('background',' #D3D3D3');
+	        $(this).css('filter',' opacity(100%)');
 	     
 	});
 		}

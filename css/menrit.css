@@ -35,6 +35,9 @@
   cursor: pointer;
   box-shadow: 3px 5px #999;
   margin-left: 10px;
+  font-size: 0.9vw;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 .banner__btn:hover {
@@ -60,6 +63,10 @@
 .allposts {
   text-align: center;
   margin-top: 20px;
+}
+
+.allposts button {
+  color: white;
 }
 
 .banner__btn--blue {
@@ -263,6 +270,18 @@
 .tile__p--blog {
   margin-right: 10%;
   margin-left: 10%;
+}
+
+.circle {
+  color: #FFF;
+}
+
+.opacity-fourty {
+  filter: opacity(30%);
+}
+
+.full-opacity {
+  filter: opacity(100%);
 }
 
 @media screen and (max-width: 825px) {
