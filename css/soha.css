@@ -61,9 +61,6 @@ ol li {
 }
 
 .mybutton {
-  width: 11%;
-  height: 10%;
-  line-height: 28px;
   border: 1px solid;
   vertical-align: middle;
   border-radius: 10%;
@@ -75,8 +72,7 @@ ol li {
   font-weight: bold;
   font-family: 'Lato', sans-serif;
   display: inline-block;
-  margin-left: 2%;
-  margin-bottom: 8%;
+  padding: 1% 2%;
 }
 
 .mybutton--center {
@@ -89,16 +85,19 @@ ol li {
 .mybutton.facebook {
   background-color: #3b5998;
   width: 15%;
+  padding: 1.5% 2%;
 }
 
 .mybutton.twitter {
   background-color: #0084b4;
   width: 15%;
+  padding: 1.5% 2%;
 }
 
 .mybutton.google {
   background-color: #d34836;
   width: 15%;
+  padding: 1.5% 2%;
 }
 
 .mybutton:hover {
@@ -262,4 +261,10 @@ i.icon-left-open {
 
 .black-slider {
   background-color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  .left-cell{
+    font-size: 50%;
+  }
 }
