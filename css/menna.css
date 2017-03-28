@@ -3,10 +3,20 @@
   padding: 0
 }
 
-h3 {
+.h {
   display: inline-block;
   margin-right: 15%;
   font-size: 1.6vw;
+}
+
+h6 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 .white-font {
@@ -187,13 +197,14 @@ h3 {
 
 /* tile2 (tile of the home page)*/
 
+
+/*
 .author {
   box-shadow: 0.5px 0.5px 1px #888888;
   width: 15%;
   height: 20%;
   font-family: 'Lato', sans-serif;
 }
-
 .author__p {
   padding: 0;
   font-size: 0.9vw;
@@ -201,7 +212,6 @@ h3 {
   color: #4B0082;
   position: relative;
 }
-
 .author__p:after {
   content: "";
   position: absolute;
@@ -210,7 +220,6 @@ h3 {
   bottom: -10%;
   left: 45%;
 }
-
 .author__img {
   width: 60%;
   height: 50%;
@@ -221,11 +230,11 @@ h3 {
   margin-top: 5%;
   margin-right: auto;
 }
-
 .author__name {
   text-align: center;
   font-size: 2vw;
 }
+*/
 
 .tag {
   margin-top: 15%;
