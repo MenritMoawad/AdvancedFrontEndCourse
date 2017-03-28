@@ -10,6 +10,10 @@
   left: 50%;
 }
 
+.link__color a {
+  color: white;
+}
+
 .banner-text {
   position: absolute;
   top: 50%;
@@ -271,6 +275,15 @@
   .banner {
     height: 80vh;
   }
+  .left-content {
+    font-size: 85%;
+  }
+  .right-content {
+    font-size: 75%;
+  }
+  .author {
+    height: 65%;
+  }
 }
 
 @media screen and (max-width: 645px) {
@@ -283,11 +296,20 @@
   .banner {
     height: 70vh;
   }
+  .left-content {
+    font-size: 75%;
+  }
+  .right-content__article-date {
+    margin-left: 30px;
+  }
+  .right-content {
+    font-size: 60%;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .author__back {
-    font-size: 57%;
+    font-size: 45%;
   }
   .banner__btn {
     font-size: 60%;
