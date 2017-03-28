@@ -163,6 +163,8 @@ body{
 
 .right-content__title{
 	margin-bottom: 30px;
+	font-size: 0.9vw;
+	font-weight: bold;
 }
 
 .right-content__image{

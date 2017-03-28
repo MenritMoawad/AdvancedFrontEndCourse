@@ -41,6 +41,7 @@
   background-image: linear-gradient(to right, rgba(128, 0, 128, 0.5), rgba(140, 240, 242, 0.5)), url(../img/home/banner.png);
   height: 100vh;
   background-size: cover;
+
 }
 
 .banner-text {
@@ -49,6 +50,7 @@
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .banner__btn {
@@ -59,6 +61,10 @@
   cursor: pointer;
   box-shadow: 3px 5px #999;
   margin-left: 10px;
+  font-weight: bold;
+  font-size:0.9vw;
+  font-family: 'Lato', sans-serif;
+
 }
 
 .banner__btn:hover {
@@ -191,6 +197,9 @@
   transform: rotateY(180deg);
   backface-visibility: hidden;
   box-shadow: -5px 5px 5px #aaa;
+  letter-spacing: 0.05em
+
+
 }
 
 .author__p {
@@ -227,7 +236,9 @@
 
 .author__name {
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.7vw;
+  margin-top: 10%;
+  font-weight: bold;
 }
 
 .authors__bullets i {
