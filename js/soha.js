@@ -31,15 +31,16 @@ jQuery(document).ready(function($) {
 		if($(this).attr('auto-play') == 'false'){
 			if($(this).attr('data-arrows') == 'true' && $(this).attr('data-dots') =='true'){
 				//add the dots
+				console.log('both are true');
 				var current_slide = 0;
 				var myslider=$(this);
 				var ol_appended="<div class='wrapper'><i class='prev icon-left-open'></i><ol class='ol-dots'>";
 				for(i = 0; i < slide_count; ++i) {
 						if(i==0){
-							ol_appended+=("<li class='li-dots' style='background:#b3cccc'></li>");
+							ol_appended+=("<li class='li-dots ' style='background:#b3cccc'></li>");
 						}
 						else
-		    				ol_appended+=("<li class='li-dots'></li>");
+		    				ol_appended+=("<li class='li-dots  '></li>");
 		    	}
 		    	ol_appended+="</ol><i class='next icon-right-open'></i><div class='clear'></div></div>";
 		    	$(this).append(ol_appended);

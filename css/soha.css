@@ -175,12 +175,12 @@ i.icon-left-open {
 }
 
 .li-dots {
-  background: #f5f5f0;
-  border: 2px solid #000;
+  background: #FFF;
+  border: 1px solid #000;
   border-radius: 100%;
   display: inline-block;
-  width: 0.5%;
-  height: 15px;
+  width: 2%;
+  height: 10px;
   cursor: pointer;
   margin-left: 5px;
 }
