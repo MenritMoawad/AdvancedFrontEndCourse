@@ -34,8 +34,8 @@
   top: 40%;
   width: 100%;
   z-index: 1000;
-  min-width: 100px;
-  max-width: 1200px;
+  /*min-width: 100px;
+  max-width: 1200px;*/
 }
 
 .button--secondary {
@@ -135,6 +135,7 @@ i.icon-right-circle {
 */
   font-size: 30px;
   color: white;
+  margin-right: 10%
   /*position: absolute;
 	left:75%;
 	transform: translateX(-50%);
@@ -155,7 +156,7 @@ i.icon-left-circle {
 
 i.icon-right-open {
   font-size: 30px;
-   color: #D3D3D3;
+  color: #D3D3D3;
 }
 
 i.icon-left-open {
@@ -186,7 +187,6 @@ i.icon-left-open {
   cursor: pointer;
   margin-left: 5px;
   filter: opacity(30%);
-
 }
 
 .li-dots:hover {
@@ -196,12 +196,12 @@ i.icon-left-open {
 }
 
 .wrapper {
-    text-align: center;
-    position: absolute;
-    top: 87%;
-    left: 10%;
-    width: 80%;
-    border-top: 2px solid #A9A9A9;
+  text-align: center;
+  position: absolute;
+  top: 87%;
+  left: 10%;
+  width: 80%;
+  border-top: 2px solid #A9A9A9;
 }
 
 
@@ -254,9 +254,11 @@ i.icon-left-open {
   text-align: start;
   width: 80%;
 }
-.slide-opacity{
+
+.slide-opacity {
   filter: opacity(30%);
 }
-.black-slider{
+
+.black-slider {
   background-color: #000;
 }
