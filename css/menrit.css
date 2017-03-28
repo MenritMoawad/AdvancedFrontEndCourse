@@ -350,3 +350,30 @@
     height: 50%;
   }
 }
+
+.green {
+  font-size: 0.9vw;
+  color: #32CD32;
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+.white-font {
+  color: white;
+  font-size: 3vw;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 0.5%;
+  font-weight: bold;
+  letter-spacing: 0.04em
+}
+
+.o {
+  z-index: 1000;
+  position: absolute;
+  /*top: 10%;*/
+  left: 3%;
+}
+
+.white-font--margin {
+  margin-top: 0%;
+}
