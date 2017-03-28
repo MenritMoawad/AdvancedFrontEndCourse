@@ -44,7 +44,7 @@ jQuery(document).ready(function($) {
 		    	}
 		    	ol_appended+="</ol><i class='next icon-right-open'></i><div class='clear'></div></div>";
 		    	$(this).append(ol_appended);
-		    	myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('background',' #b3cccc');
+		    	myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('background',' #D3D3D3');
 		    	//the click event
 		    	$(this).find('.li-dots').bind('click', function(){
 			        var index = $(this).index() ;
@@ -55,7 +55,7 @@ jQuery(document).ready(function($) {
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
 			        });
-			        $(this).css('background',' #b3cccc');
+			        $(this).css('background',' #D3D3D3');
 		     
 				});
 				////add the arrows
@@ -73,7 +73,7 @@ jQuery(document).ready(function($) {
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
 			        	 if(index ==current_slide ){
-			        	 	 $(this).css('background','#b3cccc');
+			        	 	 $(this).css('background','#D3D3D3');
 			        	 }
 			        });
 			       
@@ -91,7 +91,7 @@ jQuery(document).ready(function($) {
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
 			        	 if(index ==current_slide ){
-			        	 	 $(this).css('background','#b3cccc');
+			        	 	 $(this).css('background','#D3D3D3');
 			        	 }
 			        });
 				});
@@ -131,7 +131,7 @@ jQuery(document).ready(function($) {
 	    	}
 	    	ol_appended+="</ol></div>";
 	    	$(this).append(ol_appended);
-	    	myslider.find('.li-dots:nth-child(1)').css('background',' #b3cccc');
+	    	myslider.find('.li-dots:nth-child(1)').css('background',' #D3D3D3');
 	    	//the click event
 	    	$(this).find('.li-dots').bind('click', function(){
 	        var index = $(this).index() ;
@@ -141,7 +141,7 @@ jQuery(document).ready(function($) {
 	        $.each(li_items, function(index, val) {
 	        	 $(this).css('background','#f5f5f0');
 	        });
-	        $(this).css('background',' #b3cccc');
+	        $(this).css('background',' #D3D3D3');
 	     
 	});
 		}
@@ -168,7 +168,7 @@ jQuery(document).ready(function($) {
 		        $.each(li_items, function(index, val) {
 		        	 $(this).css('background','#f5f5f0');
 		        });
-		        myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('background',' #b3cccc');
+		        myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('background',' #D3D3D3');
 		        console.log(myslider.find('.li-dots:nth-child('+(current_slide+1)+')'));
 	    }
 		},pause);
@@ -180,7 +180,7 @@ jQuery(document).ready(function($) {
 				var ol_appended="<div class='wrapper'><i class='prev icon-left-open'></i><ol class='ol-dots'>";
 				for(i = 0; i < slide_count; ++i) {
 						if(i==0){
-							ol_appended+=("<li class='li-dots' style='background:#b3cccc'></li>");
+							ol_appended+=("<li class='li-dots' style='background:#D3D3D3'></li>");
 						}
 						else
 		    				ol_appended+=("<li class='li-dots'></li>");
@@ -197,7 +197,7 @@ jQuery(document).ready(function($) {
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
 			        });
-			        $(this).css('background',' #b3cccc');
+			        $(this).css('background',' #D3D3D3');
 		     
 				});
 				////add the arrows
@@ -215,7 +215,7 @@ jQuery(document).ready(function($) {
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
 			        	 if(index ==current_slide ){
-			        	 	 $(this).css('background','#b3cccc');
+			        	 	 $(this).css('background','#D3D3D3');
 			        	 }
 			        });
 			       
@@ -233,7 +233,7 @@ jQuery(document).ready(function($) {
 			        $.each(li_items, function(index, val) {
 			        	 $(this).css('background','#f5f5f0');
 			        	 if(index ==current_slide ){
-			        	 	 $(this).css('background','#b3cccc');
+			        	 	 $(this).css('background','#D3D3D3');
 			        	 }
 			        });
 				});
@@ -272,7 +272,7 @@ jQuery(document).ready(function($) {
 	    	}
 	    	ol_appended+="</ol></div>";
 	    	$(this).append(ol_appended);
-	    	myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('background',' #b3cccc');
+	    	myslider.find('.li-dots:nth-child('+(current_slide+1)+')').css('background',' #D3D3D3');
 	    	//the click event
 	    	$(this).find('.li-dots').bind('click', function(){
 	        var index = $(this).index() ;
@@ -283,7 +283,7 @@ jQuery(document).ready(function($) {
 	        $.each(li_items, function(index, val) {
 	        	 $(this).css('background','#f5f5f0');
 	        });
-	        $(this).css('background',' #b3cccc');
+	        $(this).css('background',' #D3D3D3');
 	     
 	});
 		}
