@@ -257,7 +257,8 @@
 .ul__li--details {
   font-size: 0.5vw;
   color: #A9A9A9;
-  margin-right: 1% margin-bottom: 0%;
+  margin-right: 1%;
+  margin-top: 10%;
 }
 
 .tile__p {
@@ -355,7 +356,7 @@
 .green {
   font-size: 0.9vw;
   color: #32CD32;
-  margin-top: 10%;
+  margin-top: 30%;
   margin-bottom: 0%;
 }
 

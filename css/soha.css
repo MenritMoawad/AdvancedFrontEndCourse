@@ -80,6 +80,8 @@ ol li {
   margin-right: auto;
   background-color: #0099CC;
   margin-bottom: 1%;
+  left:40%;
+  position: relative;
 }
 
 .mybutton.facebook {
