@@ -30,11 +30,11 @@
 
 .banner__btn {
   text-transform: uppercase;
-  border-radius: 7px;
+  border-radius: 6px;
   background-color: white;
   padding: 15px 25px;
   cursor: pointer;
-  box-shadow: 3px 5px #999;
+  box-shadow: 3px 5px rgba(153, 153, 153, 0.5);
   margin-left: 10px;
   font-size: 0.9vw;
   font-weight: bold;
@@ -54,6 +54,7 @@
 
 .banner__btn--red {
   background-color: red;
+  box-shadow: 3px 5px rgba(255, 0, 0, 0.5);
   color: white;
 }
 
@@ -72,8 +73,8 @@
 
 .banner__btn--blue {
   background-color: #2C81E7;
-  /*box-shadow: 3px 5px #6c57f6;
-  color: white;
+  box-shadow: 3px 5px rgba(0, 0, 255, 0.5);
+  /*color: white;
   margin: 0;
   padding: 7px 7px;*/
 }
