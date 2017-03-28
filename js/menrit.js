@@ -1,4 +1,4 @@
-$(document).foundation()
+
 $(document).ready(function() {
   $('[data-modal]').hide();
   $('[data-modal-btn]').click(function() {
@@ -13,4 +13,30 @@ $(document).ready(function() {
       $('[data-modal=' + btnmodal + ']').hide();
     })
   });
+  ///clouring the dots 
+  $('.author').mouseover(function() {
+    console.log('hovered ',$(this).index());
+    var circles=$('.circle');
+    var div_index=$(this).index();
+     $.each(circles, function(index, val) {
+      console.log('index is ',index,'div index ',div_index);
+        if((index+1) == div_index){
+                 $(this).css('color','#000');
+          }
+                
+        });
+     ///timer
+      setInterval(function () {
+          $.each(circles, function(index, val) {
+          console.log('index is ',index,'div index ',div_index);
+          $(this).css('color','#FFF');
+          
+                
+        });
+    }, 3000);
+     ////
+
+  });
+
+  //.li-dots:nth-child
 })

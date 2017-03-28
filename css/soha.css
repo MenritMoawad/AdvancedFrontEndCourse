@@ -260,3 +260,9 @@ i.icon-left-open {
 .black-slider{
   background-color: #000;
 }
+.opacity-fourty{
+  filter:opacity(30%);
+}
+.full-opacity{
+  filter:opacity(100%);
+}
