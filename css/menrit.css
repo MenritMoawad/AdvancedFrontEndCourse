@@ -379,3 +379,8 @@
 .white-font--margin {
   margin-top: 0%;
 }
+
+.sm{
+  margin-top: 8%;
+  font-size: 1vw;
+}
